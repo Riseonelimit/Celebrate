@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,10 +112,79 @@ body {
       transform: rotate(4deg);
     width: 25vw;
   }
-  @media (min-width: 768px) {
+  @media only screen  and (max-width:480px){
+    .button-53 {
+        padding: 0.75rem 3rem;
+        font-size: 1.25rem;
+      }
+    .text{
+        width: 90vw;
+        font-size: 1rem;
+        color: black;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      }
+      h1{
+        font-size: 2rem;
+        color: lightsalmon;
+        margin: 10px;
+      }
+      p{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: rgb(103, 227, 159);
+        margin: 10px;
+        width: 50vw;
+      }
+      .image{
+        margin: 20px;
+        background-color: wheat;
+        transform: rotate(-5deg);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .image img{
+        transform: rotate(4deg);
+      width: 75vw;
+    }
+  }
+  @media only screen  and (min-width:480px)and (max-width:1200px) {
     .button-53 {
       padding: 0.75rem 3rem;
       font-size: 1.25rem;
     }
+    .text{
+        font-size: 1rem;
+        color: black;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      }
+      .image{
+        margin: 20px;
+        background-color: wheat;
+        transform: rotate(-5deg);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .image img{
+        transform: rotate(4deg);
+      width: 75vw;
+    }
+    h1{
+        font-size: 2rem;
+        color: lightsalmon;
+        margin: 10px;
+      }
+      p{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: rgb(103, 227, 159);
+        margin: 10px;
+        width: 50vw;
+      }
   }
   
