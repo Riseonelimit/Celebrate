@@ -17,7 +17,13 @@ body {
     background-position:center ;
 
   }
-  
+  .container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
   canvas#confetti {
     position: fixed;
     width: 100%;
@@ -63,14 +69,12 @@ body {
   h1{
     font-size: 4rem;
     color: lightsalmon;
-    margin: 10px;
   }
   p{
     text-align: center;
     font-size: 1.5rem;
     font-weight: 700;
     color: rgb(103, 227, 159);
-    margin: 10px;
     width: 50vw;
   }
   .text{
@@ -90,13 +94,7 @@ body {
     width: calc(100% - 1px);
     height: calc(100% - 1px);
   }
-  .container{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-  }
+
   .button-53:hover:after {
     bottom: 2px;
     left: 2px;
@@ -136,7 +134,6 @@ body {
         font-size: 1.5rem;
         font-weight: 700;
         color: rgb(103, 227, 159);
-        margin: 10px;
         width: 50vw;
       }
       .image{
@@ -164,26 +161,23 @@ body {
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
       }
       .image{
-        margin: 20px;
         background-color: wheat;
         transform: rotate(-5deg);
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       }
       .image img{
         transform: rotate(4deg);
-      width: 75vw;
+      width: 50vw;
     }
     h1{
         font-size: 2rem;
         color: lightsalmon;
-        margin: 10px;
       }
       p{
         text-align: center;
         font-size: 1.5rem;
         font-weight: 700;
         color: rgb(103, 227, 159);
-        margin: 10px;
         width: 51vw;
       }
   }
